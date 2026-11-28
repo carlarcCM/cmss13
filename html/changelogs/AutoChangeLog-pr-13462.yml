@@ -1,0 +1,4 @@
+author: "carlarcCM"
+delete-after: True
+changes:
+  - rscadd: "Damage overlays are loaded on spawn for xenos, hopefully meaning they don't die to mid-combat freezes anymore"

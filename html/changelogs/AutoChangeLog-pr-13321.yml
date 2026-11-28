@@ -1,0 +1,6 @@
+author: "JHINgle4ce"
+delete-after: True
+changes:
+  - bugfix: "Bulwark now is slower than Warrior - same speed was not intended."
+  - balance: "Bulwarks directional armor from the sides is now 5 making it weaker than the front."
+  - balance: "Now Bulwark gains a slowdown during dirlocked movement as everybody else"

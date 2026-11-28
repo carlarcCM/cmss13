@@ -176,7 +176,7 @@ XENO_ABILITY_STATS(screech, datum/action/xeno_action/onclick/screech)
 	return TRUE
 
 /datum/action/xeno_action/activable/secrete_resin/remote/queen/proc/apply_queen_build_boost()
-	var/boost_duration = 20 MINUTES
+	var/boost_duration = 30 MINUTES
 	// In the event secrete_resin is given after round start
 	if(SSticker.round_start_time)
 		boost_duration = (30 MINUTES) - (world.time - SSticker.round_start_time)

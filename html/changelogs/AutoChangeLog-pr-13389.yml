@@ -1,0 +1,6 @@
+author: "carlarctg"
+delete-after: True
+changes:
+  - rscadd: "Builder xenomorphs now place marks down when using the secrete resin ability while building or from too far away. They can walk near their nodes to automatically build them. They may dispel the nodes by using the ability again from a distance."
+  - rscadd: "Queens on ovipositor gain a similar system, but the building is automatic."
+  - balance: "Queens now build from the same distance as Drones and Hivelords."

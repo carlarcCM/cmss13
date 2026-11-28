@@ -176,7 +176,7 @@ XENO_ABILITY_STATS(screech, datum/action/xeno_action/onclick/screech)
 	return TRUE
 
 /datum/action/xeno_action/activable/secrete_resin/remote/queen/proc/apply_queen_build_boost()
-	var/boost_duration = 5 MINUTES
+	var/boost_duration = 20 MINUTES
 	// In the event secrete_resin is given after round start
 	if(SSticker.round_start_time)
 		boost_duration = (30 MINUTES) - (world.time - SSticker.round_start_time)
@@ -185,7 +185,7 @@ XENO_ABILITY_STATS(screech, datum/action/xeno_action/onclick/screech)
 		xeno_cooldown = 0
 		xeno_cooldown_interrupt_penalty = 3 SECONDS // still punish the queen when interrupted
 		plasma_cost = 0
-		build_speed_mod = 0.1
+		build_speed_mod = 1
 		thick = TRUE // Allow queen to remotely thicken structures.
 		RegisterSignal(owner, COMSIG_XENO_THICK_RESIN_BYPASS, PROC_REF(override_secrete_thick_resin))
 		addtimer(CALLBACK(src, PROC_REF(disable_boost)), boost_duration)

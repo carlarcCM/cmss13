@@ -1,0 +1,11 @@
+author: "JHINgle4ce"
+delete-after: True
+changes:
+  - balance: "Sentinel Spit drains less reagents from marine per hit."
+  - balance: " Removes instant super slowdown on Sentinel spit hit. Slowdown depends on the current amount of stacks in marine. Up to super slowdown at max stacks."
+  - balance: " Removes instant 25 bonus armor from Sentinel tailstabbing. Bonus armor depends on the amount of stacks before the hit. Up to 25 at max stacks. Minimum bonus armor from tailstabbing is 15."
+  - balance: " Removes instant 0.8 bonus movement speed from Sentinel tailstabbing. Bonus movement speed depends on the amount of stacks before the hit. Up to 0.6 at max stacks. Minimum bonus movement speed from tailstabbing is 0.2."
+  - balance: "Successful tailstab rewards Sentinel with plasma. Up to 100 plasma at max stacks."
+  - balance: " Increases the duration of buff after a succesful Sentinel tailstabbing. From 3.5 to 4 seconds."
+  - balance: " Reduces damage from Sentinel tailstabbing making it no more than 1.2 * dmg of basic attack strength. 30 at max stacks."
+  - balance: " Reduces basic Sentinel speed from lurker level to despoiler."
